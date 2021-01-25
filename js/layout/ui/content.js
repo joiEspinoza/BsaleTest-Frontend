@@ -26,7 +26,9 @@ const content = ( products, id = false ) =>
         const card = document.createElement( 'div' );
         card.classList.add( 'card' );
         card.classList.add( 'mt-5' );
-    
+        card.classList.add( 'animate__animated' );
+        card.classList.add( 'animate__fadeIn' );
+
     /////////////////////////////////////////////////////////////////////////
 
         const cardHeader = document.createElement( 'div' );
