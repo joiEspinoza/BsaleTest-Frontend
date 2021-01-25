@@ -1,7 +1,7 @@
 
 //---------\\ SERVER URL //---------\\ 
 
-const baseUrl = "http://localhost:4030/api";
+const baseUrl = "https://bsalebackendd.herokuapp.com/api";
 
 //----------------------------------\\ 
 
