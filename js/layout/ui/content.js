@@ -13,6 +13,9 @@ const content = ( products, id = false ) =>
 
     const mainRow = document.getElementById( 'mainRow' );
 
+    const divLoading = document.getElementById( 'boxImg' );
+    divLoading.setAttribute( 'hidden', true );
+
     return products.map( ( product ) => 
     {
 
