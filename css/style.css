@@ -9,11 +9,17 @@
     padding-left: 26% !important;
 }
 
+.boxImg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .imgLoading
 {
-    width: 20rem;
-    height: 20rem;
+    width: 40rem;
+    height: 60rem;
 }
 
 
