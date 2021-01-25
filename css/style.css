@@ -1,0 +1,52 @@
+
+.navbar
+{
+   justify-content: center !important;
+}
+
+.navBar2
+{
+    padding-left: 26% !important;
+}
+
+.inputSearch
+{
+    width: 40rem !important;
+
+}
+
+
+.card
+{
+
+    height: 26rem !important;
+}
+
+.card-header
+{
+    background-color: white !important;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top
+{
+    
+    height: 12rem !important;
+
+}
+
+.card-body
+{
+    min-height: 0px !important;
+}
+
+.pName
+{
+    font-size: 0.7rem !important;
+}
+
+.pointer
+{
+    cursor: pointer;
+}
