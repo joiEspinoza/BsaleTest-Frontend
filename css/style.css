@@ -9,6 +9,14 @@
     padding-left: 26% !important;
 }
 
+
+.imgLoading
+{
+    width: 20rem;
+    height: 20rem;
+}
+
+
 .inputSearch
 {
     width: 40rem !important;
