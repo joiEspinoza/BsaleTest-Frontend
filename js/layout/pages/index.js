@@ -1,6 +1,5 @@
 import { getProducts } from "../../Actions/productsActions.js";
 import { content } from "../ui/content.js";
-import { offContent } from "../ui/offContent.js";
 
 
 //////<<<<<-----------------------------------------------------------``
@@ -16,13 +15,7 @@ getProducts()
 
 
 })
-.catch( ( error ) => 
-{
-    
-    console.log( error )
-    offContent();
-
-} );
+.catch( () => console.log( error ) );
 
 
 
