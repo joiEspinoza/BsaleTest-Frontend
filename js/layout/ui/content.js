@@ -13,7 +13,7 @@ const content = ( products, id = false ) =>
 
     const mainRow = document.getElementById( 'mainRow' );
 
-    const divLoading = document.getElementById( 'boxImg' );
+    const divLoading = document.getElementById( 'loading' );
     divLoading.setAttribute( 'hidden', true );
 
     return products.map( ( product ) => 
